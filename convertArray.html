@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Array to Object</title>
+</head>
+
+<body>
+    <h1>Program Konversi Array ke Object</h1>
+
+    <script>
+        const nama = ['Aksal', 'Adhi', 'Fandy', 'Paijo']; // List Array
+        const obj = {};
+
+        // konversi
+        for (let i = 0; i < nama.length; i++) {
+            obj[i] = nama[i];
+        }
+        document.write('Object Generated! Please, open your console.');
+        console.log(obj);
+    </script>
+</body>
+
+</html>
